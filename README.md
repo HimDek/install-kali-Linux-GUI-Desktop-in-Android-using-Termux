@@ -16,6 +16,7 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
   ```
   apt update
   apt install --no-install-recommends xfce4 -y
+  apt install xfce4-terminal -y
   apt install dbus-x11 -y
   apt install tightvncserver -y
   vncserver
