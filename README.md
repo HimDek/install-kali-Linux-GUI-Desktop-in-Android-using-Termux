@@ -12,10 +12,29 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
   proot-distro install nethunter
   proot-distro login nethuter
   ```
-* After completion of the above steps, you will be in Kali Linux Shell. Rul the following commands in the Kali Shell (will download another 100MB of files):
+* After completion of the above steps, you will be in Kali Linux Shell. Run `apt update` and then, any of the following commands in the Kali Shell:
+
+  * For a Minimal Desktop with no Default Apps:
+    ```
+    apt install kali-desktop-core --no-install-recommends -y
+    ```
+      * To Install the Default Apps later, run:
+        ```
+        apt install xfce4-goodies
+        ```
+  ***
+  * For a Minimal Desktop with Default Apps:
+    ```
+    apt install kali-desktop-core -y
+    ```
+  ***
+  * For Full Kali Linux Desktop:
+    ```
+    apt install kali-desktop-xfce -y
+    ```
+  ***
+* Then Run the following commands:
   ```
-  apt update
-  apt install --no-install-recommends xfce4 -y
   apt install xfce4-terminal -y
   apt install dbus-x11 -y
   apt install tightvncserver -y
