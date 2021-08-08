@@ -68,3 +68,8 @@ Once you have done working(hacking) using Kali-Linux, follow these steps to stop
   exit
   ```
 * To exit from Termux, type `exit` and press Enter.
+## How to start a new session:
+To start a new session if the installation part is already done, follow the following steps:
+* Open Termux and run the command, `vncviewer`.
+* Let Termux run in background by pressing HOME button in Android.
+* Open VNC Viewer and press the entry that you created during installation.
