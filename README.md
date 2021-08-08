@@ -7,20 +7,19 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
 * Download and install [Termux](https://f-droid.org/en/packages/com.termux/) in Android. ([Play Store release](https://play.google.com/store/apps/details?id=com.termux) is no more updated, so is not recommended.)
 * Open Termux and run the following commands (will download around 100MB of files):
   ```
-  apt update
-  apt install proot-distro -y
+  apt update && apt install proot-distro -y
   proot-distro install nethunter
   proot-distro login nethuter
   ```
-* After completion of the above steps, you will be in Kali Linux Shell. Run `apt update` and then, any of the following commands in the Kali Shell:
+* After completion of the above steps, you will be in Kali Linux Shell. Run any of the following commands in the Kali Shell:
 
   * For a Minimal Desktop with no Default Apps:
     ```
-    apt install kali-desktop-core --no-install-recommends -y
+    apt update && apt install kali-desktop-core --no-install-recommends -y
     ```
-      * To Install the Default Apps later, run:
+      * To Install the Default Apps, run (Optional, can be done later):
         ```
-        apt install xfce4-goodies
+        apt update && apt install xfce4-goodies
         ```
   ***
   * For a Minimal Desktop with Default Apps:
@@ -32,7 +31,6 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
     ```
     apt install kali-desktop-xfce -y
     ```
-  ***
 * Then Run the following commands:
   ```
   apt install xfce4-terminal -y
