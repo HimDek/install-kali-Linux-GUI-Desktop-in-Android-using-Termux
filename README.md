@@ -54,7 +54,7 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
   * Under Name type any name that you want to show in the app.
   * Press Create. An Entry by the name you entered will appear.
 * Press the entry you just created in VNC Viewer.
-* Type in the password you created in the fourth step (Turn on the Remember password slider if preffered) and press continue in the upper right corner.
+* Type in the password that you created in a previous step (Turn on the Remember password slider if preffered) and press continue in the upper right corner.
 * You will soon be in your Kali Linux XFCE4 Desktop Environment.
 ## How to stop the session:
 Once you have done working(hacking) using Kali-Linux, follow these steps to stop the session:
@@ -72,4 +72,7 @@ Once you have done working(hacking) using Kali-Linux, follow these steps to stop
 To start a new session if the installation part is already done, follow the following steps:
 * Open Termux and run the command, `vncviewer`.
 * Let Termux run in background by pressing HOME button in Android.
-* Open VNC Viewer and press the entry that you created during installation.
+* Open VNC Viewer and press the entry that you created during installation(https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#how-to-stop-the-session).
+* Type in the password created during (Turn on the Remember password slider if preffered) installation and press continue in the upper right corner.
+* You will soon be in your Kali Linux XFCE4 Desktop Environment.
+* [Click here](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#how-to-stop-the-session) to see how to close the session.
