@@ -69,10 +69,10 @@ Once you have done working(hacking) using Kali-Linux, follow these steps to stop
   ```
 * To exit from Termux, type `exit` and press Enter.
 ## How to start a new session:
-To start a new session if the installation part is already done, follow the following steps:
+To start a new session if the [installation](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#just-follow-these-steps-to-install-kali-linux-with-xfce4-desktop-gui-in-android-using-termux) part is already done, follow the following steps:
 * Open Termux and run the command, `vncviewer`.
 * Let Termux run in background by pressing HOME button in Android.
-* Open VNC Viewer and press the entry that you created during installation(https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#how-to-stop-the-session).
-* Type in the password created during (Turn on the Remember password slider if preffered) installation and press continue in the upper right corner.
+* Open VNC Viewer and press the entry that you created during [installation](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#just-follow-these-steps-to-install-kali-linux-with-xfce4-desktop-gui-in-android-using-termux).
+* Type in the password created during [installation](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#just-follow-these-steps-to-install-kali-linux-with-xfce4-desktop-gui-in-android-using-termux) (Turn on the Remember password slider if preffered) and press continue in the upper right corner.
 * You will soon be in your Kali Linux XFCE4 Desktop Environment.
 * [Click here](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/blob/main/README.md#how-to-stop-the-session) to see how to close the session.
