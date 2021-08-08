@@ -2,7 +2,7 @@
 
 This Guide will help you install Kali Linux in Android, that too with a GUI Desktop Environment within Android. It uses [Termux](https://f-droid.org/en/packages/com.termux/) to run Kali Linux in Android with XFCE4 Desktop Environment and a Tight VNC Server, which we connect to using a [VNC Viewer app](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) in Android.
 
-## Just Follow the steps to install Kali Linux with XFCE4 Desktop GUI in Android using Termux:
+## Just Follow these steps to install Kali Linux with XFCE4 Desktop GUI in Android using Termux:
 
 * Download and install [Termux](https://f-droid.org/en/packages/com.termux/) in Android. ([Play Store release](https://play.google.com/store/apps/details?id=com.termux) is no more updated, so is not recommended.)
 * Open Termux and run the following commands (will download around 100MB of files):
@@ -51,8 +51,20 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
 * Install [VNC Viewer](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) in Android and open it.
 * In VNC Viewer, press the + button in the lower right corner.
   * Under Address type `localhost:5901`.
-  * Under Name type any name (doesn't matter) to remember that its Kali Linux on Termux.
+  * Under Name type any name that you want to show in the app.
   * Press Create. An Entry by the name you entered will appear.
 * Press the entry you just created in VNC Viewer.
 * Type in the password you created in the fourth step (Turn on the Remember password slider if preffered) and press continue in the upper right corner.
 * You will soon be in your Kali Linux XFCE4 Desktop Environment.
+## How to stop the session:
+Once you have done working(hacking) using Kali-Linux, follow these steps to stop the session:
+* Swipe down from the top of the VNC Viewer app and tap the cross (`X`) icon.
+* Tap `Disconnect` when it asks you about being sure to disconect.
+* Now close the VNC Viewer app.
+* Then open Termux that was running in background.
+* To kill the VNC Server in Kali and exit from Kali, run the following commands:
+  ```
+  vncserver -kill:1
+  exit
+  ```
+* To exit from Termux, type `exit` and press Enter.
