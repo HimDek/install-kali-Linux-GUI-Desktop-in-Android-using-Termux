@@ -2,7 +2,8 @@
 
 This Guide will help you install Kali Linux in Android, that too with a GUI Desktop Environment within Android. It uses [Termux](https://f-droid.org/en/packages/com.termux/) to run Kali Linux in Android with XFCE4 Desktop Environment and a Tight VNC Server, which we connect to using a [VNC Viewer app](https://play.google.com/store/apps/details?id=com.realvnc.viewer.android) in Android.
 
-## Just Follow these steps to install Kali Linux with XFCE4 Desktop GUI in Android using Termux:
+## Just Follow these steps to install Kali Linux with XFCE4 Desktop GUI in Android using Termux:[WSL-error-logs.txt](https://github.com/HiDe-Techno-Tips/install-kali-Linux-GUI-Desktop-in-Android-using-Termux/files/7467851/WSL-error-logs.txt)
+
 
 * Download and install [Termux](https://f-droid.org/en/packages/com.termux/) in Android. ([Play Store release](https://play.google.com/store/apps/details?id=com.termux) is no more updated, so is not recommended.)
 * Open Termux and run the following commands (will download around 100MB of files):
