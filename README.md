@@ -4,4 +4,4 @@ This Guide will help you install Kali Linux in Android, that too with a GUI Desk
 
 
 # Attention:
-This is a guide and not a code repository. Hence it is more suitable to be published in [gist.github.com](https://gist.github.com/). It has been moved to [my gist profile](https://gist.github.com/HiDe-Techno-Tips). You may [click here](https://gist.github.com/HiDe-Techno-Tips/49a3cd23e9a931eb8920423a0fb3668a) to view this guide. Thankyou for your understanding.
+This is a guide and not a code repository. Hence it is more suitable to be published in [gist.github.com](https://gist.github.com/). It has been moved to [my gist profile](https://gist.github.com/HimDek). You may [click here](https://gist.github.com/HimDek/49a3cd23e9a931eb8920423a0fb3668a) to view this guide. Thankyou for your understanding.
